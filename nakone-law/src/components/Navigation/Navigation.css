@@ -1,23 +1,27 @@
-.nav {
-  background-color: #222;
-}
-
-&__list {
-  display: flex;
+.nav__list {
+  display: inline-flex;
   align-items: center;
   list-style: none;
+  justify-content: space-between;
 }
 
-&__link {
+.nav__link {
   text-decoration: none;
-  color: #000;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  text-transform: uppercase;
-  position: relative;
+  color: #FFF;
   display: flex;
   align-items: center;
+  position: relative;
   height: 60px;
-  font-family: "Roboto", sans-serif;
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 40px;
 }

@@ -1,16 +1,18 @@
 import './Header.css';
+import logo from '../../assets/logo.svg';
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => (
-  <header className='header'>
-    Nakone Law
-
+  <header className="header">
     <a href="#home">
-      <img
-        className="img" 
-        src="image"
-        alt="Nakone Law" 
+      <img 
+        src={logo} 
+        className="App-logo" 
+        alt="logo" 
       />
     </a>
+
+    <Navigation />
   </header>
 );
 

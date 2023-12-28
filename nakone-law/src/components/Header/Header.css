@@ -4,6 +4,13 @@
   justify-content: space-between;
   padding: 0 50px;
 
-  background-color: #213535;
+  background-color: #213555;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.App-logo {
+  display: block;
+  padding: 16px 50px;
+  justify-content: center;
+  align-items: center;
 }
