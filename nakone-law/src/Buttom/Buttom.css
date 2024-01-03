@@ -1,0 +1,14 @@
+.buttom {
+
+  display: flex;
+
+  display: flex;
+  width: 320px;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 100px;
+  background: var(--primary, #213555);
+}
