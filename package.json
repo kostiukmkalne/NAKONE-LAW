@@ -1,0 +1,26 @@
+{
+  "name": "nakone-law",
+  "version": "1.0.0",
+  "description": "importent project",
+  "main": "index.js",
+  "scripts1": {
+    "start": "npm start"
+  },
+  "dependencies": {
+    "classnames": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostiukmkalne/NAKONE-LAW.git"
+  },
+  "author": "mk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostiukmkalne/NAKONE-LAW/issues"
+  },
+  "homepage": "https://github.com/kostiukmkalne/NAKONE-LAW#readme"
+}

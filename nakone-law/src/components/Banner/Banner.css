@@ -1,0 +1,20 @@
+.banner{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+.banner-text {
+  display: flex;
+  color: #213555;
+  text-align: center;
+  align-items: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}

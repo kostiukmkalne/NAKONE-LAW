@@ -1,12 +1,18 @@
 import React from 'react';
 import "./App.css";
 import Header from './components/Header/Header';
-
+import Navigation from './components/Navigation/Navigation';
+import Banner from './components/Banner/Banner';
+import Button from './components/Button/Button';
+// import Carousel from './components/Carousel/Carousel';
 
 const App = () => (
   <div>
-    <h1>My page</h1>
     <Header />
+    <Navigation />
+    <Banner />
+    <Button />
+    {/* <Carousel /> */}
   </div>
 );
 
