@@ -1,14 +1,14 @@
 import './Button.css';
-import arrow from "../../assets/arrow-white.svg";
+import arroww from "../../../assets/arroww.svg";
 
 const Button = () => {
   return (
     <a 
-      href="button" 
+      href="#button" 
       className="button"
     >
       CONSULTATION
-      <img src={arrow} alt="arrow" className="arrow" />
+      <img src={arroww} alt="arrow" className="arrow" />
     </a>
   );
 }
