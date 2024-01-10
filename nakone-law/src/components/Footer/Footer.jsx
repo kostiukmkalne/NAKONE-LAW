@@ -1,6 +1,6 @@
 import './Footer.css';
 import arrowf from '../../assets/arrow-footer.svg';
-import Button from '../components/Button/Button';
+import Button from '../../components/Button/Button';
 
 const Footer = () => {
   <footer className="footer">

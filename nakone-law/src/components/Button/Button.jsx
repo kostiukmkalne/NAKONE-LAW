@@ -1,5 +1,5 @@
 import './Button.css';
-import arroww from "../../../assets/arroww.svg";
+import arroww from "../../assets/arroww.svg";
 
 const Button = () => {
   return (

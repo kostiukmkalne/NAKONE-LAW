@@ -4,10 +4,10 @@ import arrowb from '../../assets/arrowb.svg';
 import close from '../../assets/close.svg';
 
 const Services = () => {
-  <section className="services">
-    <h2 className="title">SERVICES</h2>
-    <div>
-      <article>
+  return (
+    <section className="services">
+      <h2 className="title">SERVICES</h2>
+      <div>
         <a href="#family_immigration">
           <img src={numb1} alt="numbers" className="numbers" />
           <h4>FAMILY IMMIGRATION</h4>
@@ -15,7 +15,7 @@ const Services = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
             eveniet exercitationem optio explicabo officiis cum sint? In non
             dolor quo doloribus saepe quos nostrum earum ipsum alias, maxime,
-            tempora perferendis./
+            tempora perferendis.
           </p>
           <a href="#services">
             <img src={arrowb} alt="arrow" className="arrow" />
@@ -25,9 +25,9 @@ const Services = () => {
             <img src={close} alt="close" className="close" />
           </a>
         </a>
-      </article>
-    </div>
-  </section>;
+      </div>
+    </section>
+  );
 };
 
 export default Services;

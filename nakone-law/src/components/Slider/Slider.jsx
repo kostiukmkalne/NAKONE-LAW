@@ -1,5 +1,5 @@
 import "./Slider.css";
-import olga from '../../assets/image.svg';
+import olga from '../../assets/olga.svg';
 
 const settings = {
   dots: true,
@@ -23,6 +23,6 @@ const Slider = () => {
       </div>
     </Slider>
   );
-};
+}
 
 export default Slider;

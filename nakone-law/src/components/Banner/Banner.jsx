@@ -1,5 +1,5 @@
 import './Banner.css';
-import banner from "../../../assets/banner.svg";
+import banner from '../../assets/banner.svg';
 
 const Banner = () => (
   <div className="banner">
