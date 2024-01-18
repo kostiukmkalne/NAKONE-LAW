@@ -1,17 +1,35 @@
+.wrraper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 .services {
-  --columns: 2;
-  display: grid;
-  column-gap: 20px;
-  grid-template-columns: repeat(var(--columns), 1fr);
+  width: 500px;
+}
+
+.item {
+  background: #213555;
+  padding: 10px 20px;
+}
+
+.maine-title {
+  display: inline-flex;
   margin-top: 144px;
+  margin-bottom: 56px;
 }
 
 .title {
   display: flex;
-  width: 100%;
+  justify-content: space-between;
   align-items: center;
-  gap: 16px;
-
-  margin-bottom: 56px;
+  color: #202833;
+  cursor: pointer;
 }
 
+.answer {
+  color: #fff;
+}

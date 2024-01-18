@@ -1,32 +1,47 @@
 import "./Services.css";
-import numb1 from '../../assets/numbers/numb1.svg';
+import data from "../../Json/Data/data";
 import arrowb from '../../assets/arrowb.svg';
-import close from '../../assets/close.svg';
+import closei from '../../assets/closei.svg';
+import { useState } from "react";
+
 
 const Services = () => {
-  return (
-    <section className="services">
-      <h2 className="title">SERVICES</h2>
-      <div>
-        <a href="#family_immigration">
-          <img src={numb1} alt="numbers" className="numbers" />
-          <h4>FAMILY IMMIGRATION</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-            eveniet exercitationem optio explicabo officiis cum sint? In non
-            dolor quo doloribus saepe quos nostrum earum ipsum alias, maxime,
-            tempora perferendis.
-          </p>
-          <a href="#services">
-            <img src={arrowb} alt="arrow" className="arrow" />
-          </a>
 
-          <a href="#services">
-            <img src={close} alt="close" className="close" />
-          </a>
-        </a>
+  const [selected, setSelected] = useState(null);
+
+  const toggle = (i) => {
+    if (selected === i) {
+      return setSelected(null)
+    }
+
+    setSelected(i)
+  }
+
+  return (
+    <div className="wrraper">
+      <h2 className="maine-title">SERVICES</h2>
+      <div className="services">
+        {data.map((item, i) => (
+          <div className="item">
+            <div className="title" onClick={() => toggle(i)}>
+              <h2>{item.question}</h2>
+              <span>
+                {selected === i ? '-' : '+'}
+                <img src={closei} alt="close-icon" />
+                <img src={arrowb} alt="arrowb" />
+              </span>
+            </div>
+            <div 
+              className={
+                selected === i ? 'answer show' : 'answer'
+              }
+            >
+              {item.answer}
+            </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 

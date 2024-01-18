@@ -1,5 +1,5 @@
 import "./Slider.css";
-import olga from '../../assets/olga.svg';
+import personalImg from '../../assets/wooman.svg';
 
 const settings = {
   dots: true,
@@ -11,17 +11,26 @@ const settings = {
 
 const Slider = () => {
   return (
-    <Slider {...settings}>
+    <div 
+      className="container" 
+      {...settings}
+    >
       <div>
-        <img src={olga} alt="olga" className="slider" />
+        <img src={personalImg} alt="personalImg" className="slider" />
       </div>
       <div>
-        <img src={olga} alt="olga" className="slider" />
+        <img src={personalImg} alt="personalImg" className="slider" />
       </div>
       <div>
-        <img src={olga} alt="olga" className="slider" />
+        <img src={personalImg} alt="personalImg" className="slider" />
       </div>
-    </Slider>
+      <div>
+        <img src={personalImg} alt="personalImg" className="slider" />
+      </div>
+      <div>
+        <img src={personalImg} alt="personalImg" className="slider" />
+      </div>
+    </div>
   );
 }
 
