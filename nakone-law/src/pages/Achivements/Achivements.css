@@ -1,0 +1,51 @@
+.counter-wrapper {
+  display: inline;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.achiv-title {
+  display: block;
+  color: #202833;
+
+  font-family: "Ogg TRIAL";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+
+  margin-top: 120px;
+  margin-bottom: 56px;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count {
+  color: #202833;
+
+  font-family: "Ogg TRIAL";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.text-count {
+  color: #202833;
+  font-family: "PP Neue Montreal";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+.container {
+  margin-top: 120px;
+}
+
+.about-title {
+  color: #202833;
+
+  font-family: "Ogg TRIAL";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+}
