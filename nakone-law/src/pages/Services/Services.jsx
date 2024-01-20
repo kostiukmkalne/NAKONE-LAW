@@ -19,7 +19,9 @@ const Services = () => {
 
   return (
     <div className="wrraper">
-      <h2 className="maine-title">SERVICES</h2>
+
+      <h2 className="main-title">SERVICES</h2>
+
       <div className="services">
         {data.map((item, i) => (
           <div className="item">

@@ -1,5 +1,5 @@
 .wrraper {
-  display: flex;
+  display: inline;
   flex-direction: column;
   height: 100%;
   width: 100%;
@@ -8,18 +8,28 @@
 }
 
 .services {
-  width: 500px;
+  display: inline;
+  color: #202833;
 }
 
 .item {
-  background: #213555;
+  background: #fff;
   padding: 10px 20px;
 }
 
-.maine-title {
-  display: inline-flex;
+.main-title {
+  display: block;
   margin-top: 144px;
   margin-bottom: 56px;
+
+  color: #202833;
+
+  font-family: "Ogg TRIAL";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
 }
 
 .title {
@@ -28,8 +38,15 @@
   align-items: center;
   color: #202833;
   cursor: pointer;
+
+  font-family: "PP Neue Montreal";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
 }
 
 .answer {
-  color: #fff;
+  color: #202833;
 }
