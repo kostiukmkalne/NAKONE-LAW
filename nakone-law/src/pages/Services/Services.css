@@ -48,5 +48,11 @@
 }
 
 .answer {
+  display: none;
+  color: #202833;
+}
+
+.answer.show {
+  display: block;
   color: #202833;
 }

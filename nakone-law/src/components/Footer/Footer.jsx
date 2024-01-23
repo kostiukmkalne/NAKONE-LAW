@@ -3,7 +3,8 @@ import arrowf from '../../assets/arrow-footer.svg';
 import Button from '../../components/Button/Button';
 
 const Footer = () => {
-  <footer className="footer">
+  return (
+    <footer className="footer">
 
     <img 
       src={arrowf} 
@@ -19,7 +20,8 @@ const Footer = () => {
     <Button 
       // а тут мені треьа прописувати кожну кнопку відповідно до моїх запитів футера?
     />
-  </footer>;
-}
+  </footer>
+  )
+};
 
 export default Footer;

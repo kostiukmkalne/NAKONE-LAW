@@ -1,4 +1,5 @@
-.container {
+.content {
+  /* display: flex; */
   margin-top: 120px;
   margin-bottom: 56px;
 }
@@ -12,4 +13,31 @@
   font-weight: 500;
   line-height: 110%;
   text-transform: uppercase;
+
+  margin-bottom: 56px;
+}
+
+.card {
+  display: grid;
+  flex-direction: row-reverse;
+
+  border: 1px solid #202833;
+  border-radius: 5px;
+  width: 22%;
+  padding: 16px 16px 16px 16px;
+}
+
+.case {
+  display: block;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.user {
+  display: inline;
+}
+
+.user-name {
+  display: inline;
+  text-align: center;
 }
