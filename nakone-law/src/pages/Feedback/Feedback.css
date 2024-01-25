@@ -1,5 +1,6 @@
 .content {
-  /* display: flex; */
+  /* display: grid;
+  justify-content: space-between; */
   margin-top: 120px;
   margin-bottom: 56px;
 }
@@ -22,9 +23,15 @@
   flex-direction: row-reverse;
 
   border: 1px solid #202833;
-  border-radius: 5px;
-  width: 22%;
+  border-radius: 15px;
+  width: 27%;
   padding: 16px 16px 16px 16px;
+}
+
+.stars {
+  display: inline;
+  gap: 4px;
+  margin-bottom: 16px;
 }
 
 .case {
@@ -39,5 +46,21 @@
 
 .user-name {
   display: inline;
-  text-align: center;
+  margin-bottom: 8px;
+
+  color: #6E7A8A;
+  font-family: "PP Neue Montreal";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text {
+  color: #6E7A8A;
+  font-family: "PP Neue Montreal";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }

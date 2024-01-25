@@ -1,4 +1,4 @@
-import user from '../../assets/user.svg';
+import star from '../../assets/star.svg';
 import "./Feedback.css";
 
 const Feedback = () => {
@@ -7,49 +7,97 @@ const Feedback = () => {
       <h1 className="feedback-title">FEEDBACK FROM OUR CLIENTS</h1>
 
       <div className="card">
-        <img src={user} alt="user" className="user" />
+        <h1 className="user-name">Nataliia</h1>
+
+        <div className="stars">
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+        </div>
 
         <div className="case">
-          <h1 className="user-name">NATALIIA</h1>
-
           <p className="text">
-            Olga was very patient with me, always
+            Olga was very patient with me, always answered my
             <br />
-            answered my questions and gave me
+            questions and gave me objective counsel
             <br />
-            objective counsel I knew I could trust.
+            I knew I could trust. She hard work and
             <br />
-            She hard work and diligence resulted
+            diligence resulted in a favorable outcome in my case.
             <br />
-            in a favorable outcome in my case.
+            I would highly recommend Mrs.Olga Nakonechna
             <br />
-            I would highly recommend
-            <br />
-            Mrs.Olga Nakonechna
           </p>
         </div>
       </div>
 
+      {/* second one */}
+
       <div className="card">
-        <img src={user} alt="user" className="user" />
+        <h1 className="user-name">Stan B.</h1>
+
+        <div className="stars">
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+        </div>
 
         <div className="case">
-          <h1 className="user-name">NATALIIA</h1>
-
           <p className="text">
-            Olga was very patient with me, always
+            One-stop shop for all your immigration, translation
             <br />
-            answered my questions and gave me
+            and notary needs! Olga is very knowledgeable,
             <br />
-            objective counsel I knew I could trust.
+            attentive and always provides an excellent service!
             <br />
-            She hard work and diligence resulted
+            Thank you!
+          </p>
+        </div>
+      </div>
+
+      {/* third One */}
+
+      <div className="card">
+        <h1 className="user-name">Greg S.</h1>
+
+        <div className="stars">
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+        </div>
+
+        <div className="case">
+          <p className="text">Excellent service, fest, and very helpful!</p>
+        </div>
+      </div>
+
+      {/* forth one  */}
+
+      <div className="card">
+        <h1 className="user-name">Yaroslav K.</h1>
+
+        <div className="stars">
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+          <img src={star} alt="star" className="star" />
+        </div>
+
+        <div className="case">
+          <p className="text">
+            She approached the free consultation very professionally.
             <br />
-            in a favorable outcome in my case.
+            Does not impose its services.
             <br />
-            I would highly recommend
+            She puts his professionalism above profit. I recommend!
             <br />
-            Mrs.Olga Nakonechna
           </p>
         </div>
       </div>
