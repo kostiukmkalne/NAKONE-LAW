@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import data from "../../Json/Data/data";
-import arrowb from "../../assets/arrowb.svg";
-import closei from "../../assets/closei.svg";
+import arrowBlack from "../../assets/arrowb.svg";
+import closeIcon from "../../assets/closei.svg";
 import "./Services.css";
 
 const Services = () => {
@@ -16,9 +16,8 @@ const Services = () => {
 
   return (
     <div className="wrraper">
-
       <h2 className="main-title">SERVICES</h2>
-      
+
       <div className="services">
         {data.map((item, i) => (
           <div className="item" key={i}>
@@ -26,9 +25,9 @@ const Services = () => {
               <h2>{item.question}</h2>
               <span>
                 {selected === i ? (
-                  <img src={closei} alt="close-icon" />
+                  <img src={closeIcon} alt="close-icon" />
                 ) : (
-                  <img src={arrowb} alt="arrowb" />
+                  <img src={arrowBlack} alt="arrowb" />
                 )}
               </span>
             </div>
