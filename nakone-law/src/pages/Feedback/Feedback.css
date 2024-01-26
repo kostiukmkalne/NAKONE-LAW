@@ -17,6 +17,12 @@
   margin-bottom: 56px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
 .card {
   display: grid;
   flex-direction: row-reverse;
