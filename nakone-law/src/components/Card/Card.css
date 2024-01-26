@@ -1,37 +1,11 @@
-.content {
-  display: grid;
-  justify-content: space-between;
-  margin-top: 120px;
-  margin-bottom: 56px;
-}
-
-.feedback-title {
-  color: #202833;
-
-  font-family: "Ogg TRIAL";
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 110%;
-  text-transform: uppercase;
-
-  margin-bottom: 56px;
-}
-
-.feedback-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  gap: 20px;
-}
-
 .card {
   display: grid;
   flex-direction: row-reverse;
 
   border: 1px solid #202833;
   border-radius: 15px;
-  width: 27%;
+  height: 100%;
+  width: 100%;
   padding: 16px 16px 16px 16px;
 }
 
@@ -41,7 +15,7 @@
   margin-bottom: 16px;
 }
 
-.case {
+.feedback-case {
   display: block;
   gap: 16px;
   padding-bottom: 16px;
@@ -63,7 +37,7 @@
   line-height: 150%;
 }
 
-.text {
+.feedback-text {
   color: #6E7A8A;
   font-family: "PP Neue Montreal";
   font-size: 14px;
