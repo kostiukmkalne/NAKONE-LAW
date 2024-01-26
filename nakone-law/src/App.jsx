@@ -27,8 +27,9 @@ const App = () => (
     <Services />
     <Achivements />
     <About />
-    <Feedback />
-    <Card />
+    <Feedback>
+      <Card />
+    </Feedback>
     <Booking />
     <Blog />
     <Location />
