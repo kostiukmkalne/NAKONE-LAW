@@ -1,8 +1,6 @@
 .footer {
-  /* display: flex; */
-  /* position: relative; */
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   background-color: #213555;
   color: #fff;
   padding: 50px;
@@ -10,7 +8,7 @@
 }
 
 .arrow-footer {
-  display: flex;
+  display: grid;
   margin-bottom: 16px;
 }
 
@@ -19,16 +17,30 @@
   justify-content: left;
 }
 
+.adds {
+  margin-top: 30px;
+}
+
 .social {
-  display: flex;
+  display: inline;
+}
+
+.social-text {
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.icons {
+  margin-right: 20px;
 }
 
 .contacts {
-  display: inline;
+  display: block;
 }
 
 .contacts-text {
   display: block;
+  margin-bottom: 8px;
 
   color: #fff;
   font-family: "PP Neue Montreal";
@@ -45,7 +57,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-  margin-bottom: 8px;
+  text-decoration: none;
 }
 
 .phone_number {
@@ -55,12 +67,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  text-decoration: none;
 
   margin-bottom: 20px;
 }
 
 .location {
   display: block;
+  margin-top: 16px;
 
   color: #fff;
   font-family: "PP Neue Montreal";
@@ -72,6 +86,7 @@
 
 .location-text {
   color: #fff;
+  text-decoration: none;
 
   font-family: "PP Neue Montreal";
   font-size: 16px;

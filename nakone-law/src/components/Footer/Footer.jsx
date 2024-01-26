@@ -1,6 +1,7 @@
 import './Footer.css';
 import arrowf from '../../assets/arrow-footer.svg';
-import whats from '../../assets/social/whats.svg';
+import whatsup from '../../assets/social/whatsup.svg';
+// import whats from '../../assets/social/whats.svg';
 import youtube from '../../assets/social/youtube.svg';
 import insta from '../../assets/social/insta.svg';
 import facebook from '../../assets/social/facebook.svg';
@@ -18,27 +19,40 @@ const Footer = () => {
           <br />
           Ready to Turn Your Ideas into Art.
         </p>
+
+        <p className="adds">© Nakone Law 2024</p>
       </div>
 
       <div className="social">
         <p className="social-text">Social</p>
 
-        <img src={whats} alt="what`s-up" className="icons" />
-        <img src={youtube} alt="youtube" className="icons" />
-        <img src={insta} alt="instagram" className="icons" />
-        <img src={facebook} alt="facebook" className="icons" />
+        <a href="https://www.instagram.com/olga_immigration_attorney?igsh=cWhhZmIyamdoM3R5">
+          <img src={insta} alt="instagram" className="icons" />
+        </a>
+
+        <a href="https://www.facebook.com/nakonelaw?mibextid=LQQJ4d">
+          <img src={facebook} alt="facebook" className="icons" />
+        </a>
+
+        <a href="tel:+1 (847)391-1008">
+          <img src={whatsup} alt="what`s-up" className="icons" />
+        </a>
+
+        <a href="#">
+          <img src={youtube} alt="youtube" className="icons" />
+        </a>
       </div>
 
       <div className="contacts">
         <p className="contacts-text">Contacts</p>
-        <a href="mailto:nakonelaw.com" className="email">
-          nakonelaw.com
+        <a href="mailto:office@nakonelaw.com" className="email">
+          office@nakonelaw.com
         </a>
 
         <br />
 
-        <a href="tel:+1 (847)612-0273" className="phone_number">
-          +1 (847)612-0273
+        <a href="tel:+1 (847)391-1008" className="phone_number">
+          +1 (847)391-1008
         </a>
 
         <p className="location">Location</p>
