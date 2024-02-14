@@ -3,14 +3,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
+  height: 100px;
 
-  background-color: #213555;
+  background-color: #FFF;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-.App-logo {
+.app-logo {
   display: block;
-  padding: 16px 50px;
+  padding: 55px 46px 55px 50px;
   justify-content: center;
   align-items: center;
 }
