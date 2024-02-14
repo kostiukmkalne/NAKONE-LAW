@@ -10,11 +10,11 @@ const Feedback = () => {
         <h1 className="user-name">Nataliia</h1>
 
         <div className="stars">
-          <img src={star} alt="star" className="star" />
-          <img src={star} alt="star" className="star" />
-          <img src={star} alt="star" className="star" />
-          <img src={star} alt="star" className="star" />
-          <img src={star} alt="star" className="star" />
+          <img src={star} alt="client-feedbacks" className="star" />
+          <img src={star} alt="client-feedbacks" className="star" />
+          <img src={star} alt="client-feedbacks" className="star" />
+          <img src={star} alt="client-feedbacks" className="star" />
+          <img src={star} alt="client-feedbacks" className="star" />
         </div>
 
         <div className="case">

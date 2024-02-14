@@ -2,9 +2,14 @@
   display: grid;
   justify-content: space-between;
   align-items: start;
+/* 
+  display: inline;
+  justify-content: space-between;
+  align-items: center; */
 }
 
 .consultation-title {
+  display: block;
   color: #202833;
   font-family: "Ogg TRIAL";
   font-size: 56px;
@@ -29,6 +34,6 @@
   margin-bottom: 16px;
 }
 
-.appointment-text {
-
+.contacts {
+  display: block;
 }
