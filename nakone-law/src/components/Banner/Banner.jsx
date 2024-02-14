@@ -1,5 +1,6 @@
 import './Banner.css';
-import banner from "../../assets/banner.svg";
+import banner from '../../assets/banner.svg';
+import Button from '../Button/Button';
 
 const Banner = () => (
   <div className="banner">
@@ -10,6 +11,8 @@ const Banner = () => (
     <p className="banner-text">
       Legal services in the field of immigration law in the United States
     </p>
+
+    <Button />
   </div>
 );
 

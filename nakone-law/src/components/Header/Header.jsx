@@ -6,13 +6,14 @@ import Button from '../Button/Button';
 const Header = () => (
   <header className="header">
     <a href="#home">
-      <img 
-        src={logo} 
-        className="app-logo" 
-        alt="logo" 
-      />
+      <img src={logo} className="app-logo" alt="logo" />
     </a>
 
+    <Button>
+      <a href="button" className="button">
+    
+      </a>
+    </Button>
     <Navigation />
     <Button />
   </header>
