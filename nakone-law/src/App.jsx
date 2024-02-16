@@ -6,7 +6,7 @@ import Banner from './components/Banner/Banner';
 
 const App = () => (
   <div>
-    <Header />
+    <Header phoneNumber="+1 (847) 391-1008" />
     <Banner />
     {/* <Carousel /> */}
   </div>
