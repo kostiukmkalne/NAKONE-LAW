@@ -10,8 +10,8 @@ const Header = () => (
     </a>
 
     <Button>
-      <a href="button" className="button">
-    
+      <a href="tel:+1 (847)391-1008" className="phone_number">
+        +1 (847)391-1008
       </a>
     </Button>
     <Navigation />
