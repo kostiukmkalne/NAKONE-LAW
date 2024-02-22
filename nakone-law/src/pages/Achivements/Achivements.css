@@ -1,6 +1,5 @@
 .counter-wrapper {
   display: inline;
-  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
 }
@@ -44,7 +43,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
   text-transform: uppercase;
 
   margin: 0;

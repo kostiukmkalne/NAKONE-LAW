@@ -1,0 +1,86 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  border: 1px solid #202833;
+  border-radius: 15px;
+  width: 100%;
+  padding: 24px 32px 24px 32px;
+}
+
+.name {
+  position: static;
+  width: 734px;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 13px 16px 13px 16px;
+
+  margin-bottom: 16px;
+}
+
+.phone-number {
+  position: static;
+  width: 734px;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 13px 16px 13px 16px;
+
+  margin-bottom: 16px;
+}
+
+.email {
+  position: static;
+  width: 734px;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 13px 16px 13px 16px;
+
+  margin-bottom: 16px;
+}
+
+.text-area {
+  position: static;
+  width: 734px;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 13px 16px 13px 16px;
+
+  margin-bottom: 16px;
+}
+
+.form-buttom {
+  display: grid;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 12px 16px;
+  margin: 0 32px 24px 32px;
+  margin-top: 44px;
+  margin-left: 525px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  border-radius: 100px;
+  background-color: #213555;
+  color: #fff;
+  cursor: pointer;
+  gap: 10px;
+}
