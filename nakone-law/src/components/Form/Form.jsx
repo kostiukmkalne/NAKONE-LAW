@@ -1,5 +1,6 @@
-import './Form.css';
+import "./Form.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
 
 const initialValues = {
   name: "",
@@ -8,33 +9,19 @@ const initialValues = {
   caseDescription: "",
 };
 
-const validate = (values) => {
-  const errors = {};
-
-  if (!values.name) {
-    errors.name = "Required";
-  }
-  if (!values.phoneNumber) {
-    errors.phoneNumber = "Required";
-  } else if (!/^\+?3?8?(0\d{9})$/i.test(values.phoneNumber)) {
-    errors.phoneNumber = "Invalid phone number";
-  }
-  if (!values.email) {
-    errors.email = "Required";
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
-    errors.email = "Invalid email address";
-  }
-  if (!values.caseDescription) {
-    errors.caseDescription = "Required";
-  }
-
-  return errors;
-};
+const validationSchema = Yup.object().shape({
+  name: Yup.string().required("Required"),
+  phoneNumber: Yup.string()
+    .matches(/^\+?3?8?(0\d{9})$/, "Invalid phone number")
+    .required("Required"),
+  email: Yup.string().email("Invalid email address").required("Required"),
+  caseDescription: Yup.string().required("Required"),
+});
 
 const SimpleForm = () => (
   <Formik
     initialValues={initialValues}
-    validate={validate}
+    validationSchema={validationSchema}
     onSubmit={(values, { setSubmitting }) => {
       setTimeout(() => {
         alert(JSON.stringify(values, null, 2));
@@ -42,12 +29,8 @@ const SimpleForm = () => (
       }, 400);
     }}
   >
-
     {({ isSubmitting }) => (
-
-      <Form
-      className="form"
-      >
+      <Form className="form">
         <Field
           type="text"
           name="name"
@@ -80,7 +63,7 @@ const SimpleForm = () => (
         />
         <ErrorMessage name="caseDescription" component="div" />
 
-        <button type="submit" disabled={isSubmitting} className="form-buttom">
+        <button type="submit" disabled={isSubmitting} className="form-button">
           SEND
         </button>
       </Form>
