@@ -1,17 +1,29 @@
 .banner{
-  flex-direction: column;
+  position: absolute;
+  height: 760px;
+  width: 1440px;
+  background-image: url(../../assets/banner.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-logo {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 56px;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
+  flex-direction: column;
+  margin-top: 210px;
+  margin-left: 50px;
 }
 
 .banner-text {
   display: flex;
-  color: #213555;
+  color: #FFF;
+  justify-content: left;
   text-align: center;
   align-items: center;
+  margin-left: 100px;
 
   font-size: 16px;
   font-style: normal;
