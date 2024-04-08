@@ -3,16 +3,18 @@
   align-items: center;
   list-style: none;
   justify-content: space-between;
+
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .nav__link {
   text-decoration: none;
-  color: #FFF;
+  color: #213555;
   display: flex;
   align-items: center;
   position: relative;
   height: 60px;
-  font-family: PP Neue Montreal;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;

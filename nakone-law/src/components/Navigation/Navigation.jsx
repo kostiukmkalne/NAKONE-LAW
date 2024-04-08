@@ -3,52 +3,41 @@ import "./Navigation.css";
 const Navigation = () => (
   <nav className="nav">
     <ul className="nav__list">
-
       <li className="nav__item">
-        <a 
-          className="nav__link" 
-          href="#home"
-        >
+        <a className="nav__link" href="#home">
           Home
         </a>
       </li>
 
       <li className="nav__item">
-        <a 
-          className="nav__link" 
-          href="#service"
-        >
+        <a className="nav__link" href="#service">
           Services
         </a>
       </li>
 
       <li className="nav__item">
-        <a 
-          className="nav__link" 
-          href="#about_us"
-        >
+        <a className="nav__link" href="#about_us">
           About Us
         </a>
       </li>
 
       <li className="nav__item">
-        <a 
-          className="nav__link" 
-          href="#blog"
-        >
+        <a className="nav__link" href="#blog">
           Blog
         </a>
       </li>
 
       <li className="nav__item">
-        <a 
-          className="nav__link" 
-          href="#contact_us"
-        >
+        <a className="nav__link" href="#contact_us">
           Contact Us
         </a>
       </li>
 
+      <li className="nav__item">
+        <a className="nav__link" href="#pay">
+          Pay
+        </a>
+      </li>
     </ul>
   </nav>
 );

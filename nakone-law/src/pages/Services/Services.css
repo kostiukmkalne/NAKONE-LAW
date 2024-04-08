@@ -19,12 +19,11 @@
 
 .main-title {
   display: block;
-  margin-top: 144px;
+  margin-top: 120px;
   margin-bottom: 56px;
 
   color: #202833;
 
-  font-family: "Ogg TRIAL";
   font-size: 56px;
   font-style: normal;
   font-weight: 500;
@@ -45,6 +44,24 @@
   font-weight: 400;
   line-height: 120%;
   text-transform: uppercase;
+}
+
+.number {
+  display: block;
+  width: 14px;
+  height: 21px;
+  left: 50px;
+  right: 1376px;
+  top: 24px;
+  bottom: 32px;
+
+  color: #202833;
+  font-family: "Ogg TRIAL";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .answer {

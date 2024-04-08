@@ -1,8 +1,10 @@
 .banner{
-  position: absolute;
   height: 760px;
   width: 1440px;
   background-image: url(../../assets/banner.svg);
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
 }
