@@ -1,10 +1,10 @@
 .wrraper {
   display: inline;
+  width: 1340px;
+  height: 324px;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .services {

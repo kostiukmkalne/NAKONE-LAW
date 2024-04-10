@@ -8,7 +8,7 @@
 }
 
 .arrow-footer {
-  display: grid;
+  display: flex;
   margin-bottom: 16px;
 }
 

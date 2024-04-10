@@ -38,7 +38,7 @@ const Footer = () => {
           <img src={whatsup} alt="what`s-up" className="icons" />
         </a>
 
-        <a href="#">
+        <a href="https://www.youtube.com/@NakoneLaw">
           <img src={youtube} alt="youtube" className="icons" />
         </a>
       </div>
