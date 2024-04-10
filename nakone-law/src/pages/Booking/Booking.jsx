@@ -4,12 +4,11 @@ import Form from '../../components/Form/Form';
 const Booking = () => {
   return (
     <div className="container">
-      <h1 className="consultation-title">BOOK A CONSULTATION</h1>
+      <h1 className="main-title">BOOK A CONSULTATION</h1>
 
       <div className="case">
-
+        
         <div className="text-case">
-
           <h2 className="title">
             MAKE AN APPOINTMENT
             <br />

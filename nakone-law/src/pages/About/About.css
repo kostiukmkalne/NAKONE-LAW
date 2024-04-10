@@ -2,9 +2,6 @@
   display: inline;
   width: 1340px;
   height: 324px;
-
-  /* margin-top: 160px; */
-  /* margin-bottom: 120px; */
 }
 
 .main-title {
@@ -40,9 +37,6 @@
 
 .text-title {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding: 0px;
 
   margin-bottom: 16px;
@@ -61,10 +55,10 @@
   display: flex;
   width: 640px;
   height: 72px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding: 0px;
+
+  margin-top: 16px;
+  margin-bottom: 298px;
 
   color: #202833;
   font-family: "PP Neue Montreal";
