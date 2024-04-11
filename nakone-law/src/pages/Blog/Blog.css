@@ -1,0 +1,31 @@
+.container-blog {
+  display: inline;
+}
+
+.blog-title {
+  color: #202833;
+
+  font-family: "Ogg TRIAL";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.video-carusel {
+  display: inline-flex;
+  margin-top: 96px;
+  margin-bottom: 140px;
+}
+
+.first-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  border: 1px solid #202833;
+  border-radius: 15px;
+
+}
