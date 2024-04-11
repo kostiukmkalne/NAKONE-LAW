@@ -1,5 +1,7 @@
 .footer {
   display: flex;
+  width: 1440px;
+  height: 249px;
   justify-content: space-between;
   background-color: #213555;
   color: #fff;
