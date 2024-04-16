@@ -4,7 +4,7 @@ import arroww from "../../assets/arroww.svg";
 const Button = () => {
   return (
     <a 
-      href="#button" 
+      href="#button"
       className="button"
     >
       CONSULTATION

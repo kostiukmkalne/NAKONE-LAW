@@ -8,6 +8,7 @@ const numbImages = [
   require("../../assets/numbers/numb1.svg"),
   require("../../assets/numbers/numb2.svg"),
   require("../../assets/numbers/numb3.svg"),
+  require("../../assets/numbers/numb4.svg"),
   require("../../assets/numbers/numb5.svg"),
   require("../../assets/numbers/numb6.svg"),
 ];
@@ -33,7 +34,6 @@ const Services = () => {
               {numbImages.map((numb, index) => (
                 <div key={index}>
                   <img src={numb} className="number" alt="number" />
-                  {/* Перевірка наявності відповідного заголовка */}
                   {item.titles && item.titles[index] && (
                     <title>{item.titles[index]}</title>
                   )}

@@ -1,10 +1,10 @@
-.container {
+.container-booking {
   display: inline;
   width: 1340px;
   height: 324px;
 }
 
-.main-title {
+.main-title-booking {
   margin-top: 160px;
   margin-bottom: 56px;
   color: #202833;
@@ -17,21 +17,20 @@
   text-transform: uppercase;
 }
 
-.case {
+.case-booking {
   display: inline-flex;
+  margin-bottom: 200px;
 }
 
-.case-text {
-  display: flex;
-  gap: 190px;
-  flex-direction: column;
-  justify-content: space-between;
+.text-case-booking {
+  display: inline;
+  margin-right: 190px;
 }
 
-.title {
+.title-booking {
   display: flex;
-  padding: 0px;
-
+  width: 320px;
+  height: 58px;
   margin-bottom: 16px;
 
   color: #202833;
@@ -44,20 +43,20 @@
   text-transform: uppercase;
 }
 
-.text {
-  /* display: block;
-  width: 640px;
-  height: 72px;
+.text-booking {
+  display: flex;
+  width: 320px;
+  height: 72px; 
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 0px;
 
-  margin-top: 16px;
-  margin-bottom: 298px;
-
   color: #202833;
-  font-family: "PP Neue Montreal";
+  font-family: 'PP Neue Montreal';
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
-  text-align: left; */
+  text-align: left;
 }

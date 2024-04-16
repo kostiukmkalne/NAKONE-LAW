@@ -27,11 +27,11 @@
   align-items: center;
   padding: 12px 16px 12px 16px;
 
-  border-radius: 100px;
-  background-color: #202833;
+  /* border-radius: 100px;
+  background-color: #202833; */
 
   color: #FFF;
-  font-family: PP Neue Montreal;
+  font-family: 'PP Neue Montreal';
   font-size: 24px;
   font-weight: 400;
   line-height: 120%;
