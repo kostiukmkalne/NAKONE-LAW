@@ -4,15 +4,6 @@ import arrowb from "../../assets/arrowb.svg";
 import closei from "../../assets/closei.svg";
 import "./Services.css";
 
-const numbImages = [
-  require("../../assets/numbers/numb1.svg"),
-  require("../../assets/numbers/numb2.svg"),
-  require("../../assets/numbers/numb3.svg"),
-  require("../../assets/numbers/numb4.svg"),
-  require("../../assets/numbers/numb5.svg"),
-  require("../../assets/numbers/numb6.svg"),
-];
-
 const Services = () => {
   const [selected, setSelected] = useState(null);
 
@@ -24,27 +15,19 @@ const Services = () => {
   };
 
   return (
-    <div className="wrraper">
-      <h2 className="main-title">SERVICES</h2>
-
+    <div className="wrapper-service">
+      <h2 className="main-title-service">SERVICES</h2>
       <div className="services">
         {data.map((item, i) => (
-          <div className="item" key={i}>
-            <div className="title" onClick={() => toggle(i)}>
-              {numbImages.map((numb, index) => (
-                <div key={index}>
-                  <img src={numb} className="number" alt="number" />
-                  {item.titles && item.titles[index] && (
-                    <title>{item.titles[index]}</title>
-                  )}
-                </div>
-              ))}
+          <div className="item-service" key={i}>
+            <div className="title-service" onClick={() => toggle(i)}>
+              <img src={item.image} className="number-service" alt="number" />
               <h2>{item.question}</h2>
               <span>
                 {selected === i ? (
                   <img src={closei} alt="close-icon" />
                 ) : (
-                  <img src={arrowb} alt="arrowb" />
+                  <img src={arrowb} alt="arrow-icon" />
                 )}
               </span>
             </div>
