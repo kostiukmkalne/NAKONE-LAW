@@ -1,7 +1,6 @@
 import './Footer.css';
 import arrowf from '../../assets/arrow-footer.svg';
 import whatsup from '../../assets/social/whatsup.svg';
-// import whats from '../../assets/social/whats.svg';
 import youtube from '../../assets/social/youtube.svg';
 import insta from '../../assets/social/insta.svg';
 import facebook from '../../assets/social/facebook.svg';

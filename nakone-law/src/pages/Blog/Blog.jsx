@@ -14,19 +14,25 @@ const Blog = () => {
     console.log("New video URL:", videoURL);
   }, [videoURL]);
 
+  const handleVideoButtonClick = (url) => {
+    window.location.href = url;
+  };
+
   return (
     <div className="container-blog">
       <h1 className="blog-title">BLOG</h1>
 
-      <div className="video-carusel">
+      <div className="video-carousel">
         
-        <div className="video-blog">
-          <img src={videoFirst} className="video-img" alt="videoFirst" />
-          <h2 className="video-name">
+        <div className="video-blog-1">
+          <img src={videoFirst} className="video-img-1" alt="videoFirst" />
+          <h2 className="video-name-1">
             How to Bring a Husband and Children to America
           </h2>
-          <Button>
-            <a href={videoURL.videoFirst} className="video-button" />
+          <Button
+            onClick={() => handleVideoButtonClick(videoURL.videoFirst)}
+            className="video-button-1"
+          >
             WATCH NOW
           </Button>
         </div>
@@ -36,8 +42,10 @@ const Blog = () => {
           <h2 className="video-name-2">
             How to Bring a Wife and Children to America
           </h2>
-          <Button>
-            <a href={videoURL.videoSecond} className="video-button-2" />
+          <Button
+            onClick={() => handleVideoButtonClick(videoURL.videoSecond)}
+            className="video-button-2"
+          >
             WATCH NOW
           </Button>
         </div>

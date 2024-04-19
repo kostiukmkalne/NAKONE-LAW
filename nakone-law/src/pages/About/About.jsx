@@ -3,17 +3,17 @@ import videoImg from '../../assets/video-img.svg';
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container-about">
       <h1 className="main-title">ABOUT US</h1>
 
       <div className="block">
-        <div className="video">
+        <div className="video-presentation">
           <a href="https://www.youtube.com/watch?v=xbeE3XjrAzk&t=83s">
             <img src={videoImg} className="image" alt="video-img" />
           </a>
         </div>
 
-        <div className="text-case">
+        <div className="text-case-about">
           <h2 className="text-title-about">
             PROFESSIONAL LEGAL ASSISTANCE IN
             <br />

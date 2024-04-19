@@ -1,4 +1,4 @@
-.container {
+.container-about {
   display: inline;
   width: 1340px;
   height: 324px;
@@ -21,7 +21,7 @@
   display: inline-flex;
 }
 
-.video {
+.video-presentation {
   width: 660px;
   height: 324px;
 
@@ -29,7 +29,7 @@
   margin-bottom: 120px;
 }
 
-.text-case {
+.text-case-about {
   display: flex;
   gap: 40px;
   flex-direction: column;

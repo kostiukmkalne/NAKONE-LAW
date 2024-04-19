@@ -36,7 +36,7 @@ const SimpleForm = () => (
           type="text"
           name="name"
           placeholder="Your name"
-          className="name"
+          className="form-name"
         />
         <ErrorMessage name="name" component="div" />
 
@@ -44,7 +44,7 @@ const SimpleForm = () => (
           type="tel"
           name="phoneNumber"
           placeholder="Phone number"
-          className="phone-number"
+          className="form-phone-number"
         />
         <ErrorMessage name="phoneNumber" component="div" />
 
@@ -52,7 +52,7 @@ const SimpleForm = () => (
           type="email"
           name="email"
           placeholder="Email"
-          className="email"
+          className="form-email"
         />
         <ErrorMessage name="email" component="div" />
 
@@ -60,7 +60,7 @@ const SimpleForm = () => (
           as="textarea"
           name="caseDescription"
           placeholder="Write about your case"
-          className="text-area"
+          className="form-text-area"
         />
         <ErrorMessage name="caseDescription" component="div" />
 

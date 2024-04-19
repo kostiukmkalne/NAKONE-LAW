@@ -32,3 +32,31 @@
   font-weight: 400;
   line-height: 150%;
 }
+
+.banner-button {
+  width: 320px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+
+  background-color: #FFF;
+  color: #202833;
+  border: 1px solid #FFF;
+  border-radius: 100px;
+
+  font-family: 'PP Neue Montreal';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.banner-button-arrow {
+  width: 12px;
+  height: 12px;
+}
