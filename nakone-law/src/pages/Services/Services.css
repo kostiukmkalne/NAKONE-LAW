@@ -38,6 +38,9 @@
   color: #202833;
   cursor: pointer;
 
+  margin-right: auto;
+  margin-left: 10px;
+
   font-family: "PP Neue Montreal";
   font-size: 24px;
   font-style: normal;

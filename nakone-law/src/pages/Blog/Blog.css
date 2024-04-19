@@ -14,7 +14,7 @@
 }
 
 .video-carusel {
-  display: inline-flex;
+  display: inline-block;
   justify-content: space-between;
   margin-top: 96px;
   margin-bottom: 140px;
@@ -22,19 +22,18 @@
 }
 
 .video-blog-1 {
-  display: flex;
+  display: block;
   flex-direction: column;
   width: 660px;
   height: 462px;
-  margin-right: 20px;
+  margin-right: 10px;
 
   border: 1px solid #202833;
   border-radius: 15px;
-  margin: 0px 0px;
 }
 
 .video-blog-2 {
-  display: flex;
+  display: block;
   flex-direction: column;
   width: 660px;
   height: 462px;

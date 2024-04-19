@@ -115,6 +115,7 @@
 
   border-radius: 100px;
   background-color: #213555;
+  border: 1px solid #213555;
   color: #FFF;
   cursor: pointer;
 }

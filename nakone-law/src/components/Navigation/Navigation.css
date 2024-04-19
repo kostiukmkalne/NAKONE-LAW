@@ -1,3 +1,11 @@
+.nav {
+  display: inline-flex;
+  width: 538px;
+  height: 22px;
+
+  /* margin: 60px 452px; */
+}
+
 .nav__list {
   display: inline-flex;
   align-items: center;
