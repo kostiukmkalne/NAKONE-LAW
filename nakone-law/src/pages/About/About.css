@@ -35,7 +35,7 @@
   flex-direction: column;
 }
 
-.text-title {
+.text-title-about {
   display: flex;
   padding: 0px;
 
@@ -51,7 +51,7 @@
   text-transform: uppercase;
 }
 
-.text {
+.text-about {
   display: flex;
   width: 640px;
   height: 72px;

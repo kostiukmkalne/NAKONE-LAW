@@ -3,21 +3,20 @@ import logo from "../../assets/logo.svg";
 import Navigation from "../Navigation/Navigation";
 import Button from "../Button/Button";
 
-const Header = ({ phoneNumber }) => (
+const Header = ({ phoneNumber, consultation }) => (
   <header className="header">
     <a href="#home">
       <img src={logo} className="app-logo" alt="logo" />
     </a>
 
-    <Button>
-      <a href={ phoneNumber } className="phone-number">
-        {`tel:+1 (847)391-1008`}
-      </a>
+    <Button href={phoneNumber} className="phone-number-button">
+      {phoneNumber}
     </Button>
-    
-    <Button>
-      <span className="consultation-header">CONSULTATION</span>
+
+    <Button href={consultation} className="consultation-header">
+      CONSULTATION
     </Button>
+
     <Navigation className="navigation" />
   </header>
 );

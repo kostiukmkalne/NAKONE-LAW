@@ -14,20 +14,18 @@ const About = () => {
         </div>
 
         <div className="text-case">
-          <h2 className="text-title">
+          <h2 className="text-title-about">
             PROFESSIONAL LEGAL ASSISTANCE IN
             <br />
             MATTERS OF US IMMIGRATION LAW
           </h2>
 
-          <h3 className="text">
-            Nakone Law is a law office specializing exclusively in US immigration law. We will be
-            <br />
-            happy to advise you and familiarize you with all the intricacies of immigration
-            <br />
-            processes in the United States of America. We work with clients from all states
-            <br />
-            and all countries of the world.
+          <h3 className="text-about">
+            Nakone Law is a law office specializing exclusively in US
+            immigration law. We will be happy to advise you and familiarize you
+            with all the intricacies of immigration processes in the United
+            States of America. We work with clients from all states and all
+            countries of the world.
           </h3>
         </div>
       </div>

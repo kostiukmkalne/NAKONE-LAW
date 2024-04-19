@@ -16,9 +16,8 @@
   align-items: center;
 }
 
-.phone-number {
-  position: static;
-  width: 261px;
+.phone-number-button {
+  width: 262px;
   height: 45px;
 
   display: flex;
@@ -27,8 +26,31 @@
   align-items: center;
   padding: 12px 16px 12px 16px;
 
-  /* border-radius: 100px;
-  background-color: #202833; */
+  border-radius: 100px;
+  background-color: #202833;
+
+  color: #FFF;
+  font-family: 'PP Neue Montreal';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.consultation-header {
+  width: 262px;
+  height: 45px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+
+  border-radius: 100px;
+  background-color: #202833;
 
   color: #FFF;
   font-family: 'PP Neue Montreal';

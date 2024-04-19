@@ -1,6 +1,7 @@
 import "./Form.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import Button from "../Button/Button";
 
 const initialValues = {
   name: "",
@@ -63,9 +64,9 @@ const SimpleForm = () => (
         />
         <ErrorMessage name="caseDescription" component="div" />
 
-        <button type="submit" disabled={isSubmitting} className="form-button">
-          SEND
-        </button>
+        <Button type="submit" disabled={isSubmitting} className="form-button">
+          Send
+        </Button>
       </Form>
     )}
   </Formik>
