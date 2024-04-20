@@ -6,11 +6,13 @@ import Footer from './components/Footer/Footer';
 
 import Services from './pages/Services/Services';
 import Achivements from './pages/Achivements/Achivements';
+import Partners from './pages/Partners/Partners';
 import About from './pages/About/About';
 import Feedback from './pages/Feedback/Feedback';
 import Booking from './pages/Booking/Booking';
 import Blog from './pages/Blog/Blog';
 import Location from './pages/Location/Location';
+
 
 const App = () => (
   <div>
@@ -19,6 +21,7 @@ const App = () => (
 
     <Services />
     <Achivements />
+    <Partners />
     <About />
     <Feedback />
     <Booking />

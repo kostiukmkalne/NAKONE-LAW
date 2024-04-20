@@ -1,0 +1,46 @@
+.container-partners {
+  display: inline;
+  width: 1340px;
+  height: 324px;
+
+  
+}
+
+.block-partners {
+  display: inline-flex;
+  /* margin-top: 140px;
+  margin-bottom: 120px; */
+  margin: 140px 50px 120px 50px;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.partners-item:not(:last-child) {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.dolynka {
+  width: 170px;
+  height: 150px;
+  display: flex;
+}
+
+.insurance {
+  width: 170px;
+  height: 150px;
+  display: flex;
+}
+
+.radio {
+  width: 170px;
+  height: 150px;
+  display: flex;
+}
+
+.selfreliance {
+  width: 120px;
+  height: 120px;
+  display: flex;
+}

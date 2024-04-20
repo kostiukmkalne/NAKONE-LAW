@@ -4,11 +4,11 @@ import videoImg from '../../assets/video-img.svg';
 const About = () => {
   return (
     <div className="container-about">
-      <h1 className="main-title">ABOUT US</h1>
+      <h1 className="main-title-about">ABOUT US</h1>
 
-      <div className="block">
+      <div className="block-about">
         <div className="video-presentation">
-          <a href="https://www.youtube.com/watch?v=xbeE3XjrAzk&t=83s">
+          <a href="https://www.youtube.com/watch?v=wKSXgWQiCfM">
             <img src={videoImg} className="image" alt="video-img" />
           </a>
         </div>
