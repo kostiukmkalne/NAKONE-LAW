@@ -1,8 +1,12 @@
-.container {
-  margin-top: 120px;
+.container-about {
+  display: inline;
+  width: 1340px;
+  height: 324px;
 }
 
-.about-title {
+.main-title-about {
+  margin-top: 160px;
+  margin-bottom: 56px;
   color: #202833;
 
   font-family: "Ogg TRIAL";
@@ -11,4 +15,56 @@
   font-weight: 500;
   line-height: 110%;
   text-transform: uppercase;
+}
+
+.block-about {
+  display: inline-flex;
+}
+
+.video-presentation {
+  width: 660px;
+  height: 324px;
+
+  margin-right: 40px;
+  margin-bottom: 120px;
+}
+
+.text-case-about {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.text-title-about {
+  display: flex;
+  padding: 0px;
+
+  margin-bottom: 16px;
+
+  color: #202833;
+  font-family: "PP Neue Montreal";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.text-about {
+  display: flex;
+  width: 640px;
+  height: 72px;
+  padding: 0px;
+
+  margin-top: 16px;
+  margin-bottom: 298px;
+
+  color: #202833;
+  font-family: "PP Neue Montreal";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
 }

@@ -1,0 +1,19 @@
+.local-container {
+  display: inline;
+}
+
+.title-local {
+  color: #202833;
+
+  font-family: "Ogg TRIAL";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.location {
+  margin-top: 56px;
+  margin-bottom: 82px;
+}

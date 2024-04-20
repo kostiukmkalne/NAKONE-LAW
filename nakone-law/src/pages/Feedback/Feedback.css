@@ -1,6 +1,15 @@
-.container {
+.content {
   margin-top: 120px;
-  margin-bottom: 56px;
+  margin-bottom: 176px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Переміщує контейнер на 100% вліво */
+  }
 }
 
 .feedback-title {
@@ -12,4 +21,67 @@
   font-weight: 500;
   line-height: 110%;
   text-transform: uppercase;
+
+  margin-bottom: 56px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+
+  /* animation: slide 30s infinite linear; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+  width: 320px;
+  height: 262px;
+
+  border: 1px solid #202833;
+  border-radius: 15px;
+  padding: 16px 16px 16px 16px;
+}
+
+.stars {
+  display: inline;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.case {
+  display: block;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.user {
+  display: inline;
+}
+
+.user-name {
+  display: inline;
+  margin-bottom: 8px;
+
+  color: #6E7A8A;
+  font-family: "PP Neue Montreal";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text {
+  display: block;
+  width: 288px;
+  height: 96px;
+  color: #6E7A8A;
+  font-family: "PP Neue Montreal";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }

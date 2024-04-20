@@ -1,16 +1,18 @@
-import './Button.css';
-import arroww from "../../assets/arroww.svg";
+import React from "react";
+import "./Button.css";
 
-const Button = () => {
+const Button = ({ onClick, children, className }) => {
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    }
+  };
+
   return (
-    <a 
-      href="#button" 
-      className="button"
-    >
-      CONSULTATION
-      <img src={arroww} alt="arrow" className="arrow" />
-    </a>
+    <button onClick={handleClick} className={`button ${className}`}>
+      {children}
+    </button>
   );
-}
+};
 
 export default Button;

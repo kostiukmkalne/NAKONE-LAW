@@ -1,20 +1,62 @@
 .banner{
-  flex-direction: column;
+  height: 760px;
+  width: 1440px;
+  background-image: url(../../assets/banner.svg);
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
-  margin-top: 56px;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-logo {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
+  flex-direction: column;
+  margin-top: 210px;
+  margin-left: 50px;
 }
 
 .banner-text {
   display: flex;
-  color: #213555;
+  color: #FFF;
+  justify-content: left;
   text-align: center;
   align-items: center;
+  margin-left: 100px;
 
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+
+.banner-button {
+  width: 320px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+
+  background-color: #FFF;
+  color: #202833;
+  border: 1px solid #FFF;
+  border-radius: 100px;
+
+  font-family: 'PP Neue Montreal';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.banner-button-arrow {
+  width: 12px;
+  height: 12px;
 }
