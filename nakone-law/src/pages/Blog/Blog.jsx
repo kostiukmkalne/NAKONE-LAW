@@ -19,11 +19,10 @@ const Blog = () => {
   };
 
   return (
-    <div className="container-blog">
+    <div className="page-blog">
       <h1 className="blog-title">BLOG</h1>
 
-      <div className="video-carousel">
-        
+      <div className="container-videos">
         <div className="video-blog-1">
           <img src={videoFirst} className="video-img-1" alt="videoFirst" />
           <h2 className="video-name-1">

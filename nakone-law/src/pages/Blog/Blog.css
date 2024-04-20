@@ -1,4 +1,4 @@
-.container-blog {
+.page-blog {
   display: inline;
 }
 
@@ -13,8 +13,8 @@
   text-transform: uppercase;
 }
 
-.video-carusel {
-  display: inline-block;
+.container-videos {
+  display: inline-flex;
   justify-content: space-between;
   margin-top: 96px;
   margin-bottom: 140px;
@@ -22,7 +22,7 @@
 }
 
 .video-blog-1 {
-  display: block;
+  display: flex;
   flex-direction: column;
   width: 660px;
   height: 462px;
@@ -33,7 +33,7 @@
 }
 
 .video-blog-2 {
-  display: block;
+  display: flex;
   flex-direction: column;
   width: 660px;
   height: 462px;
