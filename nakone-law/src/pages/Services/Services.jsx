@@ -21,7 +21,11 @@ const Services = () => {
         {data.map((item, i) => (
           <div className="item-service" key={i}>
             <div className="title-service" onClick={() => toggle(i)}>
-              <img src={item.image} className="number-service" alt="number" />
+              <img
+                src={item.image}
+                className="number-service number-service-plan"
+                alt="number"
+              />
               <h2>{item.question}</h2>
               <span>
                 {selected === i ? (
