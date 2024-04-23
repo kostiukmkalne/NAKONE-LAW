@@ -60,3 +60,33 @@
   width: 12px;
   height: 12px;
 }
+
+.comunication-buttons {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.banner-button-phone {
+  width: 64px;
+  height: 64px;
+
+  margin-top: 68px;
+
+  background-color: #202833;
+  color: #FFF;
+  border: 1px solid #202833;
+  border-radius: 100px;
+}
+
+.banner-button-chat {
+  width: 64px;
+  height: 64px;
+
+  margin-top: 68px;
+  margin-right: 50px;
+
+  background-color: #202833;
+  color: #FFF;
+  border: 1px solid #202833;
+  border-radius: 100px;
+}
