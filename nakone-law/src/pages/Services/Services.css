@@ -68,9 +68,8 @@
   text-align: left;
 }
 
-.number-service-plan {
-  justify-content: space-between;
-  padding-left: auto;
+.item-service {
+  margin: 0 auto 0 10px;
 }
 
 .answer {
