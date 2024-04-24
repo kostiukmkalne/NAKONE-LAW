@@ -23,7 +23,51 @@ const Partners = () => {
         </div>
 
         <div className="partners-item">
-          <img src={selfreliance} className="selfreliance" alt="#selfreliance" />
+          <img
+            src={selfreliance}
+            className="selfreliance"
+            alt="#selfreliance"
+          />
+        </div>
+
+        <div className="partners-item">
+          <img src={dolynka} className="dolynka" alt="#dolynka" />
+        </div>
+
+        <div className="partners-item">
+          <img src={insurance} className="insurance" alt="#insurance" />
+        </div>
+
+        <div className="partners-item">
+          <img src={radio} className="radio" alt="#radio" />
+        </div>
+
+        <div className="partners-item">
+          <img
+            src={selfreliance}
+            className="selfreliance"
+            alt="#selfreliance"
+          />
+        </div>
+
+        <div className="partners-item">
+          <img src={dolynka} className="dolynka" alt="#dolynka" />
+        </div>
+
+        <div className="partners-item">
+          <img src={insurance} className="insurance" alt="#insurance" />
+        </div>
+
+        <div className="partners-item">
+          <img src={radio} className="radio" alt="#radio" />
+        </div>
+
+        <div className="partners-item">
+          <img
+            src={selfreliance}
+            className="selfreliance"
+            alt="#selfreliance"
+          />
         </div>
       </div>
     </div>
