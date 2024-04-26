@@ -2,12 +2,10 @@
   display: inline-flex;
   width: 538px;
   height: 22px;
-
-  /* margin: 60px 452px; */
 }
 
 .nav__list {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   list-style: none;
   justify-content: space-between;
@@ -17,12 +15,11 @@
 }
 
 .nav__link {
-  text-decoration: none;
-  color: #213555;
   display: flex;
-  align-items: center;
-  position: relative;
   height: 60px;
+  color: #213555;
+  align-items: center;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -30,6 +27,7 @@
   letter-spacing: 0.56px;
   text-transform: uppercase;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .nav__item:not(:last-child) {
