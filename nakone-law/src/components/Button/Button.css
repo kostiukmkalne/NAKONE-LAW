@@ -1,10 +1,5 @@
 .button {
   display: flex;
-  width: 320px;
-  padding: 12px 16px;
-  margin-top: 20px;
-  margin-left: 525px;
-  margin-left: 60px;
 
   justify-content: center;
   text-align: center;
@@ -12,8 +7,7 @@
   text-decoration: none;
 
   border-radius: 100px;
-  background-color: #FFF;
-  color: #213555;
+  border: 1px solid #213555;
   cursor: pointer;
   gap: 10px;
 }

@@ -13,19 +13,20 @@ const Header = ({ phoneNumber, consultation }) => (
       <img src={logo} className="app-logo" alt="logo" />
     </a>
 
-    <Button href={`tel:${phoneNumber}`} className="phone-number-button">
-      847-391-1008
+    <Button>
+      <a href={`tel:${phoneNumber}`} className="phone-number-button">
+        847-391-1008
+      </a>
     </Button>
 
     <Navigation className="navigation" />
 
-    <Button href={consultation} className="consultation-header-button">
+    <Button className="consultation-header-button">
       CONSULTATION
-      <img src={arroww} className="banner-button-arrow" alt="arrowb" />
+      <img src={arroww} className="header-button-arrow" alt="arrowb" />
     </Button>
 
     <div className="language-block">
-
       <a href="#home">
         <img src={eng} className="eng-language" alt="#eng" />
       </a>

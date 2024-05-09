@@ -1,5 +1,5 @@
-import './Booking.css';
-import Form from '../../components/Form/Form';
+import "./Booking.css";
+import Form from "../../components/Form/Form";
 
 const Booking = () => {
   return (
