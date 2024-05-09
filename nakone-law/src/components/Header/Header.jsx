@@ -21,11 +21,9 @@ const Header = ({ phoneNumber, consultation }) => (
 
     <Navigation className="navigation" />
 
-    <Button>
-      <a href={consultation} className="consultation-header-button">
-        CONSULTATION
-        <img src={arroww} className="banner-button-arrow" alt="arrowb" />
-      </a>
+    <Button className="consultation-header-button">
+      CONSULTATION
+      <img src={arroww} className="header-button-arrow" alt="arrowb" />
     </Button>
 
     <div className="language-block">

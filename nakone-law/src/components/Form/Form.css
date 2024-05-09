@@ -29,7 +29,7 @@
   letter-spacing: 0%;
   text-align: left;
 
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .form-phone-number {
@@ -52,7 +52,7 @@
   letter-spacing: 0%;
   text-align: left;
 
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .form-email {
@@ -75,7 +75,7 @@
   letter-spacing: 0%;
   text-align: left;
 
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .form-text-area {
@@ -98,7 +98,7 @@
   letter-spacing: 0%;
   text-align: left;
 
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .form-button {

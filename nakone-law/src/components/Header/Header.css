@@ -1,9 +1,10 @@
 .header {
+  width: 1440px;
+  height: 142px;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
-  height: 100px;
+  /* padding: 0 20px; */
 
   background-color: #FFF;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -11,13 +12,36 @@
 
 .app-logo {
   display: block;
-  padding: 55px 46px 55px 50px;
+  padding: 50px 50px 50px 50px;
   justify-content: center;
   align-items: center;
 }
 
 .phone-number-button {
-  width: 262px;
+  width: 260px;
+  height: 46px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #213555;
+  color: #FFF;
+  border: 1px solid #213555;
+  border-radius: 100px;
+
+  font-family: 'PP Neue Montreal';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.consultation-header-button {
+  width: 260px;
   height: 46px;
   display: flex;
   flex-direction:row;
@@ -39,27 +63,9 @@
   text-decoration: none;
 }
 
-.consultation-header-button {
-  width: 262px;
-  height: 46px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #213555;
-  color: #FFF;
-  border: 1px solid #213555;
-  border-radius: 100px;
-
-  font-family: 'PP Neue Montreal';
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 4%;
-  text-align: left;
-  text-transform: uppercase;
+.header-button-arrow {
+  width: 12px;
+  height: 12px;
 }
 
 .language-block {
