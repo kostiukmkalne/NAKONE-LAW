@@ -21,7 +21,7 @@
   flex-wrap: nowrap;
 }
 
-.video-blog-1 {
+.video-blog {
   display: flex;
   flex-direction: column;
   width: 660px;
@@ -32,16 +32,7 @@
   border-radius: 15px;
 }
 
-.video-blog-2 {
-  display: flex;
-  flex-direction: column;
-  width: 660px;
-  height: 462px;
-  border: 1px solid #202833;
-  border-radius: 15px;
-}
-
-.video-img-1 {
+.video-img {
   width: 660px;
   height: 340px;
   display: flex;
@@ -52,22 +43,7 @@
   border-radius: 15px;
 }
 
-.video-img-2 {
-  width: 660px;
-  height: 340px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  border-radius: 15px;
-}
-
-.video-img-2 {
-  border-radius: 15px;
-}
-
-.video-name-1 {
+.video-name {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -84,7 +60,7 @@
   text-transform: uppercase;
 }
 
-.video-name-2 {
+.video-name-long {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -93,7 +69,7 @@
 
   color: #202833;
   font-family: 'PP Neue Montreal';
-  font-size: 24px;
+  font-size: 15.5px;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 0%;
@@ -101,30 +77,13 @@
   text-transform: uppercase;
 }
 
-.video-button-1 {
+.video-button {
   width: 628px;
   height: 46px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 16px;
-
-  background-color: #213555;
-  color: #FFF;
-  border: 1px solid #202833;
-  border-radius: 100px;
-
-  margin: auto;
-}
-
-
-.video-button-2 {
-  width: 628px;
-  height: 46px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 16px 16px 16px;
 
   background-color: #213555;
   color: #FFF;

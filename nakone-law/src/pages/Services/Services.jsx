@@ -20,6 +20,7 @@ const Services = () => {
       <div className="services">
         {data.map((item, i) => (
           <div className="item-service" key={i}>
+            <hr />
             <div className="title-service" onClick={() => toggle(i)}>
               <img
                 src={item.image}
