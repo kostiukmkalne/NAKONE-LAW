@@ -86,7 +86,7 @@ const Feedback = () => {
         </div>
 
         <div className="card">
-          <h1 className="user-name">Victor</h1>
+          <h1 className="user-name">Nadiia K.</h1>
 
           <div className="stars">
             <img src={star} alt="star" className="star" />
@@ -98,16 +98,15 @@ const Feedback = () => {
 
           <div className="case">
             <p className="text">
-              Nakone Law made my employment-based smooth and successful. Olga's
-              expertise and attention to detail were invaluable, ensuring prompt
-              fulfillment of all requirements. Highly recommend Nakone Law for
-              immigrationmatters.
+              20 minutes of consultation and Olga answered all my questions with
+              all the details and specific suggestions. Great job Olga! Thank
+              you to the moon and back!
             </p>
           </div>
         </div>
 
         <div className="card">
-          <h1 className="user-name">Evgen</h1>
+          <h1 className="user-name">SOCIAL</h1>
 
           <div className="stars">
             <img src={star} alt="star" className="star" />
@@ -119,9 +118,48 @@ const Feedback = () => {
 
           <div className="case">
             <p className="text">
-              Finally I`m a citisen of United States of America! It was a
-              stressful and a long journey. But We Did It! Thank You! Great job!
+              Very helpful and knowledgeable lawyer. Olga helped me to fix a
+              case I started myself.
             </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <h1 className="user-name">Ludmila M.</h1>
+
+          <div className="stars">
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+          </div>
+
+          <div className="case">
+            <p className="text">
+              Atty Olga Nakonechna and her office handled my case with extreme
+              proficiency and attention. The most important part for me after
+              switching from another lawyer was honesty and certainly care for
+              my case and me as a client. I recommended and keep recommending
+              Atty Nakonechna for her accuracy, attention, honesty, care and
+              proficiency.
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <h1 className="user-name">AGRATTA GLOBAL</h1>
+
+          <div className="stars">
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+            <img src={star} alt="star" className="star" />
+          </div>
+
+          <div className="case">
+            <p className="text">Best immigration attorney in Chicagoland !</p>
           </div>
         </div>
 
@@ -138,48 +176,7 @@ const Feedback = () => {
 
           <div className="case">
             <p className="text">
-              Nakone Law facilitated a seamless employment-based process. Olga's
-              expertise ensured all requirements were met promptly. Highly
-              recommend for immigration matters.
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <h1 className="user-name">Olga P.</h1>
-
-          <div className="stars">
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-          </div>
-
-          <div className="case">
-            <p className="text">
-              Many many thanks! She solved my problem what other lawyars refused
-              to take it. RECOMEND!!!
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <h1 className="user-name">Steve M.</h1>
-
-          <div className="stars">
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-            <img src={star} alt="star" className="star" />
-          </div>
-
-          <div className="case">
-            <p className="text">
-              I relied on Nakone Law for my visa extension. Olga ensured a
-              smooth process, addressing all concerns. Highly recommend for
-              immigration needs!
+              I confirm the previous reviews. Thanks for the help.
             </p>
           </div>
         </div>
